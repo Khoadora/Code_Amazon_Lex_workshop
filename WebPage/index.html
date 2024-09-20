@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fried Chicken Menu</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <style>
+        /* Reset margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body settings */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* Header settings */
+        header {
+            background-color: #d62828;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            flex: 0 1 15%; /* Occupy 15% of the screen height */
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        /* Navigation menu */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003049;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        nav ul li:hover {
+            color: #ffc300;
+        }
+
+        /* Main content */
+        main {
+            flex: 1; /* Occupy remaining space */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* Section for each menu */
+        section {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px;
+            margin-bottom: 20px;
+        }
+
+        section h2, section h3 {
+            color: #003049;
+            margin-bottom: 15px;
+        }
+
+        /* Horizontal menu styling */
+        section ul {
+            list-style: none;
+            padding-left: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        section ul li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f1f1f1;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+            text-align: center;
+        }
+
+        section ul li:hover {
+            background-color: #f7c59f;
+        }
+
+        /* Footer settings */
+        footer {
+            background-color: #003049;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            flex: 0 1 10%; /* Occupy 10% of the screen height */
+        }
+
+        footer a {
+            color: #ffc300;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script type="text/javascript">
+        (function(d, m){
+            var kommunicateSettings = 
+                {"appId":"35a6190fee5ad6aba7d62941d9d0c952d","popupWidget":true,"automaticChatOpenOnNavigation":true};
+            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+            var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+            window.kommunicate = m; m._globals = kommunicateSettings;
+        })(document, window.kommunicate || {});
+    /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Fried Chicken Menu</h1>
+    </header>
+
+    <!-- Navigation menu -->
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Menu</li>
+            <li>Contact</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- KFC Menu -->
+        <section>
+            <h2>KFC Fried Chicken</h2>
+            <ul>
+                <li>
+                    <p>Original Recipe</p>
+                </li>
+                <li>
+                    <p>Extra Crispy</p>
+                </li>
+                <li>
+                    <p>Hot & Spicy</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Jollibee Menu -->
+        <section>
+            <h2>Jollibee Fried Chicken</h2>
+            <ul>
+                <li>
+                    <p>Classic</p>
+                </li>
+                <li>
+                    <p>Spicy</p>
+                </li>
+                <li>
+                    <p>Sweet Chili</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Texas Menu -->
+        <section>
+            <h2>Texas Fried Chicken</h2>
+            <ul>
+                <li>
+                    <p>Smoky BBQ</p>
+                </li>
+                <li>
+                    <p>Cajun Spice</p>
+                </li>
+                <li>
+                    <p>Honey Butter</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Chicken Sizes -->
+        <section>
+            <h3>Chicken Sizes (# pieces)</h3>
+            <ul>
+                <li>
+                    <p>Small</p>
+                </li>
+                <li>
+                    <p>Medium</p>
+                </li>
+                <li>
+                    <p>Large</p>
+                </li>
+                <li>
+                    <p>Family Size</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fried Chicken Menu</p>
+    </footer>
+
+</body>
+
+</html>
