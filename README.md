@@ -1,2 +1,1 @@
-# Amazon_Lex_demo
-Code for the Amazon Lex Playlist [videos](https://www.youtube.com/playlist?list=PLRBkbp6t5gM00QA8CMkYIQt7ATE3iJkdN)
+# Code cho phần 3(Lamdba funtion), phần 4(add chatbot into web page), phần 5(Lambda handle for Response Card) được thực hiện bởi sinh viên Nguyễn Phương Khoa trường hcmute 
